@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="3" name="pods.cabs.CabServiceTest" time="7.877" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-15.0.2/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/nilesh/dev/akka-cab-service"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/nilesh/dev/akka-cab-service"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-73-generic"/>
+    <property name="library.jansi.path" value="/opt/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/nilesh"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="nilesh"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-15.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase1" time="2.193"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase2" time="0.092"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase3" time="0.033"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase4" time="1.039"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase5" time="0.115">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at pods.cabs.CabServiceTest.testCase5(CabServiceTest.java:409)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>### Test Case 5 Started ###
+12:48:18.595 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.601 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.601 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.602 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.605 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.606 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.609 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.612 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.616 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.617 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.621 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.622 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.624 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.625 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.626 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.670 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Main - Wallet map[Lakka.actor.typed.ActorRef;@683f682c
+12:48:18.671 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Main - CAb map{101=Actor[akka://CabServiceTest/user/main5/Cab16#1372093651], 102=Actor[akka://CabServiceTest/user/main5/Cab17#-1642623136], 103=Actor[akka://CabServiceTest/user/main5/Cab18#-227360926], 104=Actor[akka://CabServiceTest/user/main5/Cab19#-75089212]}
+in cabSignsIn
+in cabSignsIn
+in cabSignsIn
+in cabSignsIn
+### Cab 101, 102, 103 and 104 are Signed In
+inside onRequestRide
+12:48:18.679 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide324226799-201--10-100 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: available
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 201 insideFullfillRequestRide324226799
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 405
+inside onRequestRide
+12:48:18.683 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide770259510-202--10-110 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: available
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 202 insideFullfillRequestRide770259510
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 102
+$$$$ Ride request from Customer 202 is accepted - Ride ID : 406
+inside onRequestRide
+12:48:18.687 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1830936295-203--10-120 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: giving-ride
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 203 insideFullfillRequestRide-1830936295
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 103
+$$$$ Ride request from Customer 203 is accepted - Ride ID : 407
+inside onRequestRide
+12:48:18.692 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide638472250-201--100-10 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: giving-ride
+Cab 103 State: giving-ride
+Cab 104 State: available
+Attempt no 1 by Customer 201 insideFullfillRequestRide638472250
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 104
+XXXX Ride request from Customer 201 is accepted - Ride ID : 408
+</system-out>
+  </testcase>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase6" time="3.036">
+    <failure message="Timeout (3 seconds) during receiveMessage while waiting for message." type="java.lang.AssertionError">java.lang.AssertionError: Timeout (3 seconds) during receiveMessage while waiting for message.
+	at akka.actor.testkit.typed.internal.TestProbeImpl.assertFail(TestProbeImpl.scala:399)
+	at akka.actor.testkit.typed.internal.TestProbeImpl.$anonfun$receiveMessage_internal$1(TestProbeImpl.scala:182)
+	at scala.Option.getOrElse(Option.scala:201)
+	at akka.actor.testkit.typed.internal.TestProbeImpl.receiveMessage_internal(TestProbeImpl.scala:182)
+	at akka.actor.testkit.typed.internal.TestProbeImpl.receiveMessage(TestProbeImpl.scala:175)
+	at pods.cabs.CabServiceTest.testCase6(CabServiceTest.java:508)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>### Test Case 6 Started ###
+12:48:18.711 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.711 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.712 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.712 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.712 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.711 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.715 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.713 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.713 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.716 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.716 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.716 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.716 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.716 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.712 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:18.714 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.714 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:18.715 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:18.722 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Main - Wallet map[Lakka.actor.typed.ActorRef;@683f682c
+12:48:18.723 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Main - CAb map{101=Actor[akka://CabServiceTest/user/main6/Cab20#-1813812399], 102=Actor[akka://CabServiceTest/user/main6/Cab21#-1288894301], 103=Actor[akka://CabServiceTest/user/main6/Cab22#662004888], 104=Actor[akka://CabServiceTest/user/main6/Cab23#-684321031]}
+in cabSignsIn
+in cabSignsIn
+in cabSignsIn
+in cabSignsIn
+### Cab 101, 102, 103 and 104 are Signed In
+inside onRequestRide
+12:48:18.726 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1044399773-201--10-100 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: available
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1044399773
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 409
+inside onRequestRide
+12:48:18.728 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-216940872-202--10-110 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: available
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 202 insideFullfillRequestRide-216940872
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 102
+$$$$ Ride request from Customer 202 is accepted - Ride ID : 410
+inside onRequestRide
+12:48:18.730 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-462969478-203--10-120 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: giving-ride
+Cab 103 State: available
+Cab 104 State: available
+Attempt no 1 by Customer 203 insideFullfillRequestRide-462969478
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 103
+$$$$ Ride request from Customer 203 is accepted - Ride ID : 411
+inside onRequestRide
+12:48:18.732 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide853450844-204--100-10 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: giving-ride
+Cab 103 State: giving-ride
+Cab 104 State: available
+Attempt no 1 by Customer 204 insideFullfillRequestRide853450844
+First closest cab Found and request sent.
+RequestNo:::::: 1 on Cab 104
+12:48:18.739 [CabServiceTest-akka.actor.default-dispatcher-8] ERROR akka.actor.SupervisorStrategy - Cannot invoke &quot;akka.actor.typed.ActorRef.tell(Object)&quot; because &quot;walletRef&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;akka.actor.typed.ActorRef.tell(Object)&quot; because &quot;walletRef&quot; is null
+	at pods.cabs.FulfillRide.onRequestRideResponse(FulfillRide.java:246)
+	at akka.actor.typed.javadsl.BuiltReceive.receive(ReceiveBuilder.scala:213)
+	at akka.actor.typed.javadsl.BuiltReceive.receiveMessage(ReceiveBuilder.scala:204)
+	at akka.actor.typed.javadsl.Receive.receive(Receive.scala:53)
+	at akka.actor.typed.javadsl.AbstractBehavior.receive(AbstractBehavior.scala:64)
+	at akka.actor.typed.Behavior$.interpret(Behavior.scala:274)
+	at akka.actor.typed.Behavior$.interpretMessage(Behavior.scala:230)
+	at akka.actor.typed.internal.adapter.ActorAdapter.handleMessage(ActorAdapter.scala:131)
+	at akka.actor.typed.internal.adapter.ActorAdapter.aroundReceive(ActorAdapter.scala:107)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+</system-out>
+  </testcase>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase7" time="0.058"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase8" time="0.007"/>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase9" time="0.267">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at pods.cabs.CabServiceTest.testCase9(CabServiceTest.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>### Test Case 9 Started ###
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.821 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.822 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.822 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.822 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.822 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.823 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.823 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.823 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.823 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.824 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.824 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.824 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.825 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.825 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.825 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.825 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.825 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.826 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.826 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.826 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 201-{} started
+12:48:21.827 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 202-{} started
+12:48:21.827 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.Wallet - Wallet actor 203-{} started
+12:48:21.833 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Main - Wallet map[Lakka.actor.typed.ActorRef;@683f682c
+12:48:21.834 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.Main - CAb map{101=Actor[akka://CabServiceTest/user/main9/Cab32#-1353486983], 102=Actor[akka://CabServiceTest/user/main9/Cab33#-1443976318], 103=Actor[akka://CabServiceTest/user/main9/Cab34#1690468148], 104=Actor[akka://CabServiceTest/user/main9/Cab35#281355813]}
+in cabSignsIn
+### Cab 101 is  Signed In
+inside onRequestRide
+12:48:21.837 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide394250032-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide394250032
+RequestNo:::::: 1 on Cab 101
+First closest cab Found and request sent.
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 416
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :416, CAB: 101
+12:48:21.839 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1484406948-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1484406948
+RequestNo:::::: 2 on Cab 101
+State: available
+First closest cab Found and request sent.
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide1484406948
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.841 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1489120444-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1489120444
+First closest cab Found and request sent.
+RequestNo:::::: 3 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 417
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :417, CAB: 101
+12:48:21.843 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1245795136-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1245795136
+First closest cab Found and request sent.
+RequestNo:::::: 4 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-1245795136
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.844 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1193151369-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1193151369
+First closest cab Found and request sent.
+RequestNo:::::: 5 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 418
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :418, CAB: 101
+12:48:21.845 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide192580235-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide192580235
+First closest cab Found and request sent.
+RequestNo:::::: 6 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide192580235
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.846 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide947714145-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide947714145
+First closest cab Found and request sent.
+RequestNo:::::: 7 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 419
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :419, CAB: 101
+12:48:21.848 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1250517375-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1250517375
+First closest cab Found and request sent.
+RequestNo:::::: 8 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-1250517375
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.850 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide686535162-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide686535162
+First closest cab Found and request sent.
+RequestNo:::::: 9 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 420
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :420, CAB: 101
+12:48:21.851 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1862170675-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1862170675
+First closest cab Found and request sent.
+RequestNo:::::: 10 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide1862170675
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.853 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1737677029-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1737677029
+First closest cab Found and request sent.
+RequestNo:::::: 11 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 421
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :421, CAB: 101
+12:48:21.854 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1895056227-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1895056227
+First closest cab Found and request sent.
+RequestNo:::::: 12 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide1895056227
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.855 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1717339672-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1717339672
+First closest cab Found and request sent.
+RequestNo:::::: 13 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 422
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :422, CAB: 101
+12:48:21.856 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-352278422-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-352278422
+First closest cab Found and request sent.
+RequestNo:::::: 14 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-352278422
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.858 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1229738283-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1229738283
+First closest cab Found and request sent.
+RequestNo:::::: 15 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 423
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :423, CAB: 101
+12:48:21.859 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-698560702-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-698560702
+First closest cab Found and request sent.
+RequestNo:::::: 16 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-698560702
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.860 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-940501541-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-940501541
+First closest cab Found and request sent.
+RequestNo:::::: 17 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 424
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :424, CAB: 101
+12:48:21.862 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-952782825-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-952782825
+First closest cab Found and request sent.
+RequestNo:::::: 18 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-952782825
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.863 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1942692699-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1942692699
+First closest cab Found and request sent.
+RequestNo:::::: 19 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 425
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :425, CAB: 101
+12:48:21.865 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1850374118-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1850374118
+First closest cab Found and request sent.
+RequestNo:::::: 20 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-1850374118
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.866 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide85847999-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide85847999
+RequestNo:::::: 21 on Cab 101
+First closest cab Found and request sent.
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 426
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :426, CAB: 101
+12:48:21.868 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide369760045-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide369760045
+First closest cab Found and request sent.
+RequestNo:::::: 22 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide369760045
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.869 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1592373697-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1592373697
+First closest cab Found and request sent.
+RequestNo:::::: 23 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 427
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :427, CAB: 101
+12:48:21.872 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-235315039-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-235315039
+First closest cab Found and request sent.
+RequestNo:::::: 24 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-235315039
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.875 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-860160801-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-860160801
+First closest cab Found and request sent.
+RequestNo:::::: 25 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 428
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :428, CAB: 101
+12:48:21.877 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1580079380-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1580079380
+First closest cab Found and request sent.
+RequestNo:::::: 26 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide1580079380
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.878 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-2101066153-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-2101066153
+First closest cab Found and request sent.
+RequestNo:::::: 27 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 429
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :429, CAB: 101
+12:48:21.880 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-131176903-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-131176903
+First closest cab Found and request sent.
+RequestNo:::::: 28 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide-131176903
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.881 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1610169780-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1610169780
+First closest cab Found and request sent.
+RequestNo:::::: 29 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 430
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :430, CAB: 101
+12:48:21.882 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide870946822-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide870946822
+First closest cab Found and request sent.
+RequestNo:::::: 30 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide870946822
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.883 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide332862400-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide332862400
+First closest cab Found and request sent.
+RequestNo:::::: 31 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 431
+$$$$ Ride Has ended
+inside onRequestRide
+12:48:21.885 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-333841208-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-333841208
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+In RideEnded for :431, CAB: 101
+12:48:21.886 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1154777730-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1154777730
+First closest cab Found and request sent.
+RequestNo:::::: 32 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide1154777730
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.887 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide496467015-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide496467015
+First closest cab Found and request sent.
+RequestNo:::::: 33 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 432
+$$$$ Ride Has ended
+inside onRequestRide
+12:48:21.888 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1384734807-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1384734807
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.889 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide245731291-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide245731291
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+In RideEnded for :432, CAB: 101
+12:48:21.891 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide783554948-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide783554948
+First closest cab Found and request sent.
+RequestNo:::::: 34 on Cab 101
+State: available
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 2 by Customer 201 insideFullfillRequestRide783554948
+No cab available in attempt: 2
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.892 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2067214701-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: available
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2067214701
+First closest cab Found and request sent.
+RequestNo:::::: 35 on Cab 101
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 433
+$$$$ Ride Has ended
+inside onRequestRide
+In RideEnded for :433, CAB: 101
+12:48:21.893 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1990498019-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1990498019
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.894 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1420933458-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1420933458
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.895 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-349937206-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-349937206
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.896 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1952886612-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1952886612
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.898 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1267602637-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1267602637
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.898 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1812346219-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1812346219
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.900 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1345808580-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1345808580
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.901 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide942510765-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide942510765
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.902 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-860901114-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-860901114
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.903 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1767404805-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1767404805
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.904 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-667659181-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-667659181
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.905 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-623990066-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-623990066
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.906 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-148263157-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-148263157
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.907 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide485439728-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide485439728
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.908 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-128153204-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-128153204
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.909 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1275625995-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1275625995
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.910 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1523763517-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1523763517
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.911 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide677839634-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide677839634
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.912 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1424559696-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1424559696
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.913 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide230461669-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide230461669
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.914 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1260551160-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1260551160
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.915 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide275138557-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide275138557
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.916 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide844268852-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide844268852
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.917 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide154774570-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide154774570
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.918 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide470790384-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide470790384
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.919 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1926829144-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1926829144
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.920 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide724452623-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide724452623
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.921 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1861480413-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1861480413
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.922 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1089005509-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1089005509
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.923 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide704323454-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide704323454
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.924 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1419535214-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1419535214
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.925 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1801774151-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1801774151
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.926 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide999361855-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide999361855
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.927 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide756188756-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide756188756
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.928 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide266687785-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide266687785
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.929 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1845834877-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1845834877
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.930 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1436471000-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1436471000
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.931 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-925378293-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-925378293
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.932 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1390349293-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1390349293
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.933 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-136105409-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-136105409
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.933 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-647312391-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-647312391
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.934 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide721065943-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide721065943
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.935 [CabServiceTest-akka.actor.default-dispatcher-6] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1258631751-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1258631751
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.936 [CabServiceTest-akka.actor.default-dispatcher-3] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1992425206-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1992425206
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.937 [CabServiceTest-akka.actor.default-dispatcher-8] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1922836625-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1922836625
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.938 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1565430300-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1565430300
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.939 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2056553344-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2056553344
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.940 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-891740044-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-891740044
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.941 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1327527389-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1327527389
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.943 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1167616905-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1167616905
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.944 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1681964125-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1681964125
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.945 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1357134108-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1357134108
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.946 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-515590694-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-515590694
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.947 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2100352312-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2100352312
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.948 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1627716787-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1627716787
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.949 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1481174672-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1481174672
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.950 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide190391051-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide190391051
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.951 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide331350045-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide331350045
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.952 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1261142685-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1261142685
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.954 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-795397184-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-795397184
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.955 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide451616023-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide451616023
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.957 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide156232953-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide156232953
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.958 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1052326749-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1052326749
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.959 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide323997900-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide323997900
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.962 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1216798500-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1216798500
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.963 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1505476323-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1505476323
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.967 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-659762604-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-659762604
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.968 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide871889978-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide871889978
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.969 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-960310280-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-960310280
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.971 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide694646029-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide694646029
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.971 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide543076825-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide543076825
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.972 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide292145601-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide292145601
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.973 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide68037876-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide68037876
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.974 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1784970863-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1784970863
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.976 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-339310176-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-339310176
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.977 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-500443256-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-500443256
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.977 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide660744278-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide660744278
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.978 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1790770355-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1790770355
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.980 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide205481937-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide205481937
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.981 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide208662542-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide208662542
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.983 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1416819717-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1416819717
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.984 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-113901226-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-113901226
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.986 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide221272647-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide221272647
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.987 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide847570002-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide847570002
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.989 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1691166031-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1691166031
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.990 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide467706425-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide467706425
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.991 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-409672989-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-409672989
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.992 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1166418915-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1166418915
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.993 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1559652173-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1559652173
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.994 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide767994662-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide767994662
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.995 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1187207309-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1187207309
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.996 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-815442293-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-815442293
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.998 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide690089410-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide690089410
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:21.999 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide129690357-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide129690357
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.000 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1622464734-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1622464734
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.001 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-284128870-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-284128870
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.002 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1542831819-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1542831819
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.003 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1172467587-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1172467587
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.004 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2005315522-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2005315522
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.005 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1441681820-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1441681820
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.006 [CabServiceTest-akka.actor.default-dispatcher-11] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide794731870-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide794731870
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.008 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-671553972-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-671553972
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.009 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1900345203-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1900345203
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.011 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1959930678-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1959930678
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.012 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2131694184-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2131694184
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.013 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide720869467-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide720869467
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.014 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1115230371-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1115230371
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.015 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-943885782-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-943885782
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.016 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-891100490-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-891100490
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.017 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-182054909-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-182054909
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.018 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1591521304-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1591521304
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.018 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1909641577-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1909641577
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.019 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide727044396-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide727044396
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.020 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-340629391-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-340629391
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.022 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide474413676-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide474413676
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.023 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1329088033-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1329088033
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.025 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1628411919-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1628411919
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.026 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-798574362-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-798574362
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.028 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-686474825-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-686474825
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.031 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-993787035-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-993787035
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.032 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide453960055-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide453960055
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.033 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide766363905-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide766363905
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.034 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-712010120-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-712010120
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.035 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-625747432-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-625747432
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.036 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-947561738-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-947561738
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.037 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-961834048-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-961834048
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.037 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1707271636-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1707271636
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.041 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-904621794-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-904621794
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.042 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide14961369-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide14961369
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.043 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide692371616-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide692371616
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.044 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide639490797-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide639490797
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.045 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-877172447-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-877172447
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.046 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1124376846-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1124376846
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.047 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide2081121128-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide2081121128
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.048 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide299022938-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide299022938
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.049 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-860911424-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-860911424
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.050 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-189642280-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-189642280
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.052 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1904381423-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1904381423
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.053 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-2095999009-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-2095999009
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.054 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1096911020-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1096911020
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.056 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide121777204-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide121777204
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.058 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1393264842-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1393264842
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.059 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-2101746827-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-2101746827
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.061 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1192351877-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1192351877
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.062 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-845361630-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-845361630
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.064 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-808101496-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-808101496
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.065 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1109299698-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1109299698
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.066 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-951121780-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-951121780
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.067 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-148518368-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-148518368
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.072 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1812567715-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1812567715
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.072 [CabServiceTest-akka.actor.default-dispatcher-10] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide285810635-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide285810635
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.073 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-699183759-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-699183759
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.074 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1619834901-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1619834901
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.074 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1075956478-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1075956478
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.075 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide770816718-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide770816718
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.076 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1535893461-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1535893461
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.077 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide636156172-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide636156172
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.078 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1421865165-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1421865165
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.079 [CabServiceTest-akka.actor.default-dispatcher-7] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-995262610-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-995262610
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.080 [CabServiceTest-akka.actor.default-dispatcher-9] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide-1364602290-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide-1364602290
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.081 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide1803344275-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide1803344275
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+inside onRequestRide
+12:48:22.082 [CabServiceTest-akka.actor.default-dispatcher-5] INFO pods.cabs.FulfillRide - FulfillRide actor FullfillRequestRide555679890-201--0-3 started
+INTERNAL CACHE: 
+Cab 101 State: giving-ride
+Cab 102 State: signed-out
+Cab 103 State: signed-out
+Cab 104 State: signed-out
+Attempt no 1 by Customer 201 insideFullfillRequestRide555679890
+No cab available in attempt: 1
+$$$$ Ride request from Customer 201 is Denied ! 
+#### Total Rides : 18 Denial of rides : 182
+### Balance for the Customer 201 : 9430
+### Expected Balance  : 8920
+</system-out>
+  </testcase>
+  <testcase classname="pods.cabs.CabServiceTest" name="testCase10" time="1.037"/>
+</testsuite>
